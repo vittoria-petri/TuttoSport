@@ -1,0 +1,264 @@
+body {
+    margin: 0; /*togliere spazio bianco in cima alla pagina*/
+}
+
+.style-color {
+    color: #8b351d;
+}
+
+.bg-color {
+    background-color: #8b351d;
+}
+
+.underline a {
+    text-decoration: none;
+    color: #282828;
+
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+.gray-border {
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+    font-weight: 600;
+    border: 1px solid white;
+    border-radius: 18px;
+    background-color: #f2f2f2;
+    padding: 5px 15px;
+    float: right;
+    margin-top: -25px;
+}
+
+.navbar {
+    width: 100%;
+    height: 87px;
+    overflow: hidden;
+    font-weight: bold; /*grassetto*/
+    font-size: 15px;
+    display: flex;
+    align-items: center; /* allineamento verticale*/
+    justify-content: space-between;
+    position: fixed;
+    margin-right: 1rem;
+    font-family: Poppins, sans-serif;
+}
+
+.navbar div span a, .navbar div span img {
+    float: right;
+    padding: 6px 12px; /* 2: alto & basso, sinistra & destra | 3 o 4: alto, destra, basso, sinistro */
+    height: 15px;
+    line-height: 15px;
+    text-decoration: none; /*per togliere il sottolineato*/
+    margin-right: 16px;
+}
+
+.split-left {
+    width: 30%;
+    float: left;
+    padding-left: 100px;
+}
+
+.split-right {
+    width: 64%;
+    float: right;
+    font-size: 15px;
+    padding: 6px 12px; /*6px top e 12px left and right*/
+    align-items: center;
+    margin-right: 16px;
+}
+
+.user {
+    padding: 0;
+    margin-right: 0;
+}
+
+
+.resizetuttosport {
+    float: left;
+}
+
+.roundedlive-img {
+    border-radius: 18px;
+    border: 1px solid red;
+    color: red;
+    background: white;
+    opacity: 0.8;
+}
+
+.rounded1-img {
+    border-radius: 18px;
+    border: 1px solid black;
+    height: 10px;
+    color: black;
+    background: white;
+    opacity: 0.8;
+}
+
+.fullrounded-img {
+    border-radius: 18px;
+    background: #47c072;
+    height: 10px;
+    color: white;
+}
+
+#mainsize {
+    width: 100%;
+    display: block;
+}
+
+.main-div {
+    max-width: 1018px;
+    margin: 0 auto;
+}
+
+.rotation {
+    transform: rotate(-3deg);
+    float: left;
+    position: relative;
+    width: 100%;
+    top: -30px;
+}
+
+
+.tag {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    width: 100%;
+    margin: 30px;
+    border: 1px solid #f2f2f2;
+}
+
+.div-cont {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.div-cont div {
+    padding-right: 32px;
+    text-align: center;
+}
+
+.rettangolo {
+    font-weight: 700;
+    text-decoration: none;
+    color: #282828;
+}
+
+.divider {
+    width: 4%;
+    border: 2px solid #E0E0E0; /*per mettere la linea spessa*/
+}
+
+.primopiano {
+    font-family: "Poppins", sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    color: #4984b8;
+    text-align: left;
+}
+
+.small-text {
+    font-family: "Couplet CF", "CoupletCF-fallback", sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 7px;
+    line-height: 1.05;
+}
+
+.medium-text {
+    font-family: "Couplet CF", "CoupletCF-fallback", sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    margin-top: 10px;
+    line-height: 1.05;
+}
+
+.big-text {
+    font-family: "Couplet CF", "CoupletCF-fallback", sans-serif;
+    font-size: 60px;
+    margin-top: 120px;
+    line-height: 1;
+}
+
+.data {
+    text-align: left;
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+
+}
+
+.grid-container {
+    display: grid;
+    max-width: 1018px;
+    margin: 20px auto;
+    grid-template-columns: 300px 300px auto;
+    column-gap: 32px;
+    row-gap: 20px;
+}
+
+.empty-space {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.item1 {
+    background-color: red;
+    grid-column-end: span 2;
+}
+
+.item2 {
+    /*background-color: blue;*/
+    grid-row-end: span 2;
+    text-align: center;
+}
+
+.item3 {
+    background-color: yellow;
+}
+
+.item4 {
+    background-color: #47c072;
+}
+
+.item5 {
+    background-color: palevioletred;
+}
+
+.item6 {
+    background-color: aquamarine;
+}
+
+.item7 {
+    background-color: red;
+}
+
+
+.div-container-1 {
+    display: grid;
+    max-width: 1018px;
+    margin: 20px auto;
+    grid-template-columns:  632px auto;
+    column-gap: 32px;
+}
+
+.item1-1 {
+    background-color: chartreuse;
+}
+
+.item1-2 {
+    background-color: hotpink;
+}
+
+.item1-1 video {
+    width: 583px;
+    height: 328px;
+}
