@@ -23,6 +23,7 @@ body {
 .gray-border {
     font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
     font-weight: 600;
+    font-size: 14px;
     border: 1px solid white;
     border-radius: 18px;
     background-color: #f2f2f2;
@@ -31,84 +32,12 @@ body {
     margin-top: -25px;
 }
 
-.navbar {
-    width: 100%;
-    height: 87px;
-    overflow: hidden;
-    font-weight: bold; /*grassetto*/
-    font-size: 15px;
-    display: flex;
-    align-items: center; /* allineamento verticale*/
-    justify-content: space-between;
-    position: fixed;
-    margin-right: 1rem;
-    font-family: Poppins, sans-serif;
-}
-
-.navbar div span a, .navbar div span img {
-    float: right;
-    padding: 6px 12px; /* 2: alto & basso, sinistra & destra | 3 o 4: alto, destra, basso, sinistro */
-    height: 15px;
-    line-height: 15px;
-    text-decoration: none; /*per togliere il sottolineato*/
-    margin-right: 16px;
-}
-
-.split-left {
-    width: 30%;
-    float: left;
-    padding-left: 100px;
-}
-
-.split-right {
-    width: 64%;
-    float: right;
-    font-size: 15px;
-    padding: 6px 12px; /*6px top e 12px left and right*/
-    align-items: center;
-    margin-right: 16px;
-}
-
-.user {
-    padding: 0;
-    margin-right: 0;
-}
-
-
-.resizetuttosport {
-    float: left;
-}
-
-.roundedlive-img {
-    border-radius: 18px;
-    border: 1px solid red;
-    color: red;
-    background: white;
-    opacity: 0.8;
-}
-
-.rounded1-img {
-    border-radius: 18px;
-    border: 1px solid black;
-    height: 10px;
-    color: black;
-    background: white;
-    opacity: 0.8;
-}
-
-.fullrounded-img {
-    border-radius: 18px;
-    background: #47c072;
-    height: 10px;
-    color: white;
-}
-
 #mainsize {
     width: 100%;
     display: block;
 }
 
-.main-div {
+.container {
     max-width: 1018px;
     margin: 0 auto;
 }
@@ -120,7 +49,6 @@ body {
     width: 100%;
     top: -30px;
 }
-
 
 .tag {
     display: flex;
@@ -154,6 +82,7 @@ hr {
 .divider {
     width: 4%;
     border: 2px solid #E0E0E0; /*per mettere la linea spessa*/
+    margin-left: 0; /*per allinare a sinistra*/
 }
 
 .primopiano {
@@ -162,6 +91,7 @@ hr {
     font-weight: 800;
     color: #4984b8;
     text-align: left;
+    margin-bottom: 15px;
 }
 
 .small-text {
@@ -198,8 +128,6 @@ hr {
 
 .grid-container {
     display: grid;
-    max-width: 1018px;
-    margin: 20px auto;
     grid-template-columns: 300px 300px auto;
     column-gap: 32px;
     row-gap: 20px;
@@ -211,7 +139,7 @@ hr {
 }
 
 .item1 {
-    background-color: red;
+    /*background-color: red;*/
     grid-column-end: span 2;
 }
 
@@ -222,43 +150,86 @@ hr {
 }
 
 .item3 {
-    background-color: yellow;
+    /*background-color: yellow;*/
 }
 
 .item4 {
-    background-color: #47c072;
+    /*background-color: #47c072;*/
 }
 
 .item5 {
-    background-color: palevioletred;
+    /*background-color: palevioletred;*/
 }
 
 .item6 {
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
 }
 
 .item7 {
-    background-color: red;
+    /*background-color: red;*/
 }
 
 
-.div-container-1 {
+.grid-container-1 {
     display: grid;
-    max-width: 1018px;
-    margin: 20px auto;
     grid-template-columns:  632px auto;
     column-gap: 32px;
 }
 
 .item1-1 {
-    background-color: chartreuse;
+    /*background-color: chartreuse;*/
+}
+.item1-1 video {
+    width: 632px;
+    height: 377px;
 }
 
 .item1-2 {
-    background-color: hotpink;
+    margin-top: 60px;
 }
 
-.item1-1 video {
-    width: 583px;
-    height: 328px;
+.adv {
+    /*background-color: slateblue;*/
+    text-align: center;
+    margin-left: 8px;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns:  252px 252px 252px 252px;
+    column-gap: 7px;
+    row-gap: 20px;
+}
+
+.item2-5 {
+    grid-column-end: span 2;
+}
+
+.item2-6 {
+    grid-column-end: span 2;
+}
+
+/*.divcontainer {
+    max-width: 1018px;
+    margin: 20px auto;
+}*/
+
+.scommesse {
+    font-family: Poppins, sans-serif;
+    color: #282828;
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+
+.columns-footer {
+    display: grid;
+    /*max-width: 1018px;*/
+    /*margin: 20px auto;*/
+    background-color: #282828;
+    color: white;
+    grid-template-columns:  auto auto auto auto auto auto;
+    column-gap: 32px;
+
 }
