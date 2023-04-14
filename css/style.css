@@ -130,7 +130,6 @@ hr {
     font-size: 14px;
     font-weight: 400;
     margin-top: 5px;
-
 }
 
 .grid-container {
@@ -225,8 +224,6 @@ hr {
     margin-bottom: 10px;
 }
 
-
-
 .grid-container-3 {
     display: grid;
     grid-template-columns: 632px auto;
@@ -234,8 +231,17 @@ hr {
     row-gap: 20px;
 }
 
-.cont2{
+.cont2 {
     grid-row-end: span 2;
+}
+
+.style-green {
+    font-family: "Couplet CF", "CoupletCF-fallback", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #47c072;
+    padding-left: 10px;
+
 }
 
 
@@ -325,7 +331,7 @@ hr {
     text-align: right;
 }
 
-.grid-footer-3{
+.grid-footer-3 {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: left;
@@ -336,7 +342,6 @@ hr {
 .style-abbonati {
     font-size: 15px;
     font-weight: 400;
-    color: #282828;
     text-align: left;
     border-radius: 18px;
     background: white;
@@ -345,16 +350,20 @@ hr {
 
 }
 
-.leggi-online{
-    text-align: right;
+.style-abbonati a{
+    text-decoration: none;
+    color: #282828;
 }
 
+.leggi-online {
+    text-align: right;
+}
 
 .leggi-online a {
     text-decoration: none;
     color: white;
 }
 
-.leggi-online a:hover{
+.leggi-online a:hover {
     text-decoration: underline;
 }
