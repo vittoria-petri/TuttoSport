@@ -1,17 +1,102 @@
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* Responsive NavBar */
+
+
 @media screen and (max-width: 600px) {
-    .navbar span:not(:first-child) {
+    .user, .roundedlive-img, .rounded1-img, .img1, .spacenav {
         display: none;
+    }
+
+
+    .split-left {
+        padding-left: 0;
+    }
+
+    .navbar {
+        width: 100vw;
+        background-color: white;
+        height: 60px;
+    }
+
+    .split-right {
+        width: auto;
+    }
+
+
+    .img2 {
+        display: block;
+    }
+
+    .mainadv {
+        display: none;
+    }
+
+    .mainadv1 {
+        display: block;
+        padding-top: 70px;
+    }
+
+    .rotation img {
+        width: 200px;
+        height: auto;
+        padding-left: 200px;
+    }
+    .rotation{
+       top: -20px;
+    }
+    .livemilan {
+        margin-top: -110px;
+
+    }
+
+    .blue-title{
+        font-size: 30px;
+    }
+
+    .grid-container-2{
+        grid-template-columns: 290px 290px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .bigimg {
+        max-width: 100%;
+
     }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
-    .navbar.responsive {
+    .big-text {
+        width: 100%;
+        font-size: 30px;
+
     }
-    .navbar.responsive span {
-        float: none;
-        /*display: block;*/
-        text-align: left;
+
+    .div-cont {
+        font-size: 15px;
     }
+
+    .container {
+        width: 100%;
+    }
+
+}
+/*Responsive footer*/
+@media only screen and (max-width: 600px) {
+    .grid-footer{
+        grid-template-columns: auto auto;
+    }
+    .footer2img, .responsive-footer{
+        display: none;
+    }
+    .footer-subtitle {
+        font-size: 20px;
+    }
+    .divider-1 {
+        width: 12%;
+    }
+
 }

@@ -2,6 +2,7 @@
 <html lang="it"> <!-- Come impostare la lingua della pagina -->
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/navbar.css">
     <link rel="stylesheet" type="text/css" href="../css/media.css">
@@ -12,7 +13,10 @@
 </head>
 <body>
 <nav class="navbar bg-color">
-    <div class="split-left"><div><img src="../img/tuttosportcom.jpeg" alt="logo"></div></div>
+    <div class="split-left">
+        <div class="img1"><img src="../img/tuttosportcom.jpeg" alt="logo" class="responsivelogo"></div>
+        <div class="img2"><img src="../img/tuttosport2.jpeg" alt="logo" class="responsivelogo"></div>
+    </div>
     <div class="split-right">
         <span class="user"><img src="../img/user.jpg" alt="User img"></span>
         <span class="user"><img src="../img/bell.jpg" alt="Bell img"></span>
@@ -22,13 +26,15 @@
         <span><a href="https://www.tuttosport.com/live/calcio/diretta-risultati" class="roundedlive-img">LIVE</a></span>
         <span><a href="#" class="rounded-img">&#128269;</a></span>
     </div>
-    <div style="width: 6%"></div>
+    <div class="spacenav"></div>
 </nav>
-<a href="#"><img src="../img/mainimg.jpg" id="mainsize" alt="main img"></a>
+<div class="mainadv1"><a href="#"><img src="../img/mainadv.jpeg" alt="main adv"></a></div>
+<div class="bigimg"><a href="#"><img src="../img/mainimg.jpg" alt="main img"></a></div>
 <div class="container">
-    <div><a href="#"><img src="../img/mainadv.jpeg" alt="main adv"></a></div>
+    <div class="mainadv"><a href="#"><img src="../img/mainadv.jpeg" alt="main adv"></a></div>
+
     <div class="rotation"><img src="../img/finale.jpg" alt="finale rovente img"></div>
-    <p class="big-text underline"><a href="#"><b>LIVE Milan-Empoli: segui la partita in tempo reale</b></a></p>
+    <div class="livemilan"><p class="big-text underline"><a href="#"><b>LIVE Milan-Empoli: segui la partita in tempo reale</b></a></p></div>
     <div class="tag">
         <div></div>
         <div class="gray-border">Serie A</div>
@@ -41,7 +47,7 @@
         <div><a href="#" class="rettangolo">Processo Juve</a></div>
     </div>
 
-    <div><a href="#"><img src="../img/adv1.jpeg" alt="adv"></a></div>
+    <div class="adv-responsive"><a href="#"><img src="../img/adv1.jpeg" alt="adv"></a></div>
     <hr class="divider">
     <div class="blue-title">In primo piano</div>
     <div class="grid-container">
@@ -262,7 +268,7 @@
         </div>
     </div>
     <div class="adv empty-space ">
-        <a href="#"><img src="../img/adv4.jpeg" class="adv" alt="adv img"></a>
+        <div class="adv-responsive"><a href="#"><img src="../img/adv4.jpeg" class="adv" alt="adv img"></a></div>
     </div>
 
     <div>
@@ -272,7 +278,7 @@
     <div class="grid-container-2">
         <div class="item2-1">
             <div><a href="#"><img src="../img/plus1.jpeg" alt="Contenuti Plus img"></a></div>
-            <div class="small-text underline"><a href="#">SChi l'ha detto che il calcio italiano non ha talenti?
+            <div class="small-text underline"><a href="#">Chi l'ha detto che il calcio italiano non ha talenti?
                 Parliamo di Ndour, stella Benfica da 80 milioni</a>
             </div>
             <div class="empty-space">
@@ -310,7 +316,7 @@
     </div>
 
     <p class="style-green">Abbonati a TuttoSport</p>
-    <a href="#"><img src="../img/adv5.jpeg" alt="adv img"></a>
+    <div class="adv-responsive"><a href="#"><img src="../img/adv5.jpeg" alt="adv img"></a></div>
 
 
     <div style="margin-top: 30px;"></div>
@@ -324,7 +330,7 @@
                         <li>
                             <hr class="divider-1">
                         </li>
-                        <li><h2 style="font-weight: bold;">Calcio</h2></li>
+                        <li><h2 class="footer-subtitle">Calcio</h2></li>
                         <li><a href="#" class="style-columns-footer">Live</a></li>
                         <li><a href="#" class="style-columns-footer">Champions League</a></li>
                         <li><a href="#" class="style-columns-footer">Europa League</a></li>
@@ -340,7 +346,7 @@
                         <li>
                             <hr class="divider-1">
                         </li>
-                        <li><h2>Altri Sport</h2></li>
+                        <li><h2 class="footer-subtitle">Altri Sport</h2></li>
                         <li><a href="#" class="style-columns-footer">Sci</a></li>
                         <li><a href="#" class="style-columns-footer">Rugby</a></li>
                         <li><a href="#" class="style-columns-footer">Ciclismo</a></li>
@@ -355,7 +361,7 @@
                         <li>
                             <hr class="divider-1">
                         </li>
-                        <li><h2>Network</h2></li>
+                        <li><h2 class="footer-subtitle">Network</h2></li>
                         <li><a href="#" class="style-columns-footer">Auto</a></li>
                         <li><a href="#" class="style-columns-footer">Autosprint</a></li>
                         <li><a href="#" class="style-columns-footer">Inmoto</a></li>
@@ -370,7 +376,7 @@
                         <li>
                             <hr class="divider-1">
                         </li>
-                        <li><h2>Utility</h2></li>
+                        <li><h2 class="footer-subtitle">Utility</h2></li>
                         <li><a href="#" class="style-columns-footer">Rss</a></li>
                         <li><a href="#" class="style-columns-footer">Abbonamenti</a></li>
                         <li><a href="#" class="style-columns-footer">Prima pagina</a></li>
@@ -384,7 +390,7 @@
                         <li>
                             <hr class="divider-1">
                         </li>
-                        <li><h2>Assistenza</h2></li>
+                        <li><h2 class="footer-subtitle">Assistenza</h2></li>
                         <li><a href="#" class="style-columns-footer">Contatti</a></li>
                         <li><a href="#" class="style-columns-footer">La Redazione</a></li>
                         <li><a href="#" class="style-columns-footer">Faq</a></li>
@@ -400,7 +406,7 @@
                         <li>
                             <hr class="divider-1">
                         </li>
-                        <li><h2>Altro</h2></li>
+                        <li><h2 class="footer-subtitle">Altro</h2></li>
                         <li><a href="#" class="style-columns-footer">Pubblicità</a></li>
                         <li><a href="#" class="style-columns-footer">Registrazione</a></li>
                         <li><a href="#" class="style-columns-footer">Sire Map</a></li>
@@ -423,7 +429,7 @@
                 <div class="footer2img">
                     <div><img src="../img/footer3.png" alt="footer img"></div>
                 </div>
-                <div>
+                <div class="responsive-footer">
                     <div class="leggi">Leggi Tuttosport su tutti i tuoi dispositivi</div>
                     <div class="grid-footer-3">
                         <div class="style-abbonati"><a href="#"><b>Abbonati</b></a></div>

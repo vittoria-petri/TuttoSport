@@ -11,6 +11,7 @@
     margin-right: 1rem;
     font-family: Poppins, sans-serif;
     z-index: 1;
+
 }
 
 .navbar div span a, .navbar div span img {
@@ -28,6 +29,10 @@
     padding-left: 100px;
 }
 
+.img2{
+    display: none;
+}
+
 .split-right {
     width: 64%;
     float: right;
@@ -37,6 +42,9 @@
     margin-right: 16px;
 }
 
+.spacenav{
+    width: 6%;
+}
 .user {
     padding: 0;
     margin-right: 0;
@@ -70,3 +78,4 @@
     height: 10px;
     color: white;
 }
+

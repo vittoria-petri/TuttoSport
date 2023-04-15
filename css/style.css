@@ -38,7 +38,7 @@ body {
     margin-top: -25px;
 }
 
-#mainsize {
+.bigimg img {
     width: 100%;
     display: block;
 }
@@ -84,6 +84,11 @@ hr {
     font-weight: 700;
     text-decoration: none;
     color: #282828;
+}
+
+.adv-responsive img {
+    max-width: 100%;
+    height: auto;
 }
 
 .divider {
@@ -134,6 +139,7 @@ hr {
 
 .grid-container {
     display: grid;
+    box-sizing: border-box;
     grid-template-columns: 300px 300px auto;
     column-gap: 32px;
     row-gap: 20px;
@@ -180,6 +186,7 @@ hr {
     display: grid;
     grid-template-columns:  632px auto;
     column-gap: 32px;
+    box-sizing: border-box;
 }
 
 .item1-1 {
@@ -206,6 +213,7 @@ hr {
     grid-template-columns:  252px 252px 252px 252px;
     column-gap: 7px;
     row-gap: 20px;
+    box-sizing: border-box;
 }
 
 .item2-5 {
@@ -229,6 +237,7 @@ hr {
     grid-template-columns: 632px auto;
     column-gap: 32px;
     row-gap: 20px;
+    box-sizing: border-box;
 }
 
 .cont2 {
@@ -256,6 +265,7 @@ hr {
 .grid-footer {
     display: grid;
     grid-template-columns:  auto auto auto auto auto auto;
+    box-sizing: border-box;
 }
 
 .grid-footer div ul {
@@ -278,7 +288,7 @@ hr {
 
 .divider-1 {
     width: 30%;
-    border: 1px solid #696969; /*per mettere la linea spessa*/
+    border: 2px solid #696969; /*per mettere la linea spessa*/
     margin-left: 0; /* per allinare a sinistra*/
     margin-bottom: 12px;
 }
@@ -293,6 +303,7 @@ hr {
     display: grid;
     grid-template-columns:  auto auto auto auto;
     justify-content: left;
+    box-sizing: border-box;
 }
 
 .grid-footer-1 div a {
@@ -312,10 +323,12 @@ hr {
     margin-bottom: 10px;
 }
 
+
 .grid-footer-2 {
     display: grid;
     grid-template-columns: auto 300px 300px;
     padding-bottom: 60px;
+    box-sizing: border-box;
 }
 
 .leggi {
@@ -336,6 +349,7 @@ hr {
     grid-template-columns: auto auto;
     justify-content: left;
     margin-top: 5px;
+    box-sizing: border-box;
 
 }
 
@@ -368,3 +382,11 @@ hr {
     text-decoration: underline;
 }
 
+
+.mainadv1{
+    display: none;
+}
+
+.mainadv1 img{
+    max-width: 100%;
+}
