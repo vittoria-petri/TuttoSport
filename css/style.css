@@ -91,6 +91,7 @@ hr {
     height: auto;
 }
 
+
 .divider {
     width: 4%;
     border: 2px solid #E0E0E0; /*per mettere la linea spessa*/
@@ -161,6 +162,11 @@ hr {
     text-align: center;
 }
 
+.item2-adv2 {
+    display: none;
+}
+
+
 .item3 {
     /*background-color: yellow;*/
 }
@@ -181,6 +187,10 @@ hr {
     /*background-color: red;*/
 }
 
+.item7-img{
+    width: 352px;
+    height: 176px;
+}
 
 .grid-container-1 {
     display: grid;
@@ -206,6 +216,9 @@ hr {
     /*background-color: slateblue;*/
     text-align: center;
     margin-left: 8px;
+    max-width: 100%;
+    height: auto;
+
 }
 
 .grid-container-2 {
