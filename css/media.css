@@ -91,6 +91,11 @@
 
     .item2-adv2 {
         display: block;
+        margin-top: 70px;
+    }
+
+    .item2-adv3 {
+        margin-top: 17px;
     }
 
     .item4, .item6 {
@@ -198,7 +203,6 @@
     }
 
 
-
 }
 
 @media only screen and (max-width: 700px) {
@@ -229,6 +233,7 @@
     .divider-1 {
         width: 12%;
     }
+
 
 }
 
