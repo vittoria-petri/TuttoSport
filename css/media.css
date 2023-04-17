@@ -125,11 +125,10 @@
         margin: 0 10px;
     }
 
-    .item1-1 {
+    .item1-1 video  {
         text-align: center;
-    }
-    video {
-        max-width: 50%;
+        width: calc(100vw  - 40px);
+        height: auto;
     }
 
     .item1-2 {
