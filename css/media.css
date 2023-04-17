@@ -2,46 +2,36 @@
 
 
 @media screen and (max-width: 1100px) {
-    .user, .roundedlive-img, .rounded1-img, .spacenav {
+    .user, .roundedlive-img, .rounded1-img, .lente1{
         display: none;
+    }
+
+    .lente2 {
+        display: block;
     }
 }
 
 @media screen and (max-width: 1020px) {
-    .user, .roundedlive-img, .rounded1-img, .spacenav {
-        display: none;
-    }
-
     .navbar {
         width: 100vw;
         background-color: white;
         height: 60px;
-        position: fixed;
     }
-
     .img1 {
         display: none;
     }
-
     .img2 {
         display: block;
     }
-
     .split-left {
         padding-left: 0;
         margin-left: 7px;
         margin-top: 15px;
 
     }
-
-    .split-right {
-        width: auto;
-    }
-
     .div-cont1 {
         display: none;
     }
-
 }
 
 
@@ -125,14 +115,10 @@
         margin: 0 10px;
     }
 
-    .item1-1 video  {
-        text-align: center;
-        width: calc(100vw  - 40px);
-        height: auto;
-    }
 
     .item1-2 {
         width: 100%;
+        margin-top: 20px;
     }
 
     .item1-2 div a img {
@@ -157,23 +143,28 @@
         width: 100%;
     }
 
+    .item3 div a img, .item4 div a img, .item5 div a img, .item6 div a img {
+        width: 100%;
+    }
     .style-green {
         font-size: 20px;
     }
-
     .sub-title, .divider, .div-cont {
         margin-left: 10px;
     }
-
     .big-hr {
         width: auto;
         margin: 8px;
     }
-
     .tag-seriea {
         margin-right: 10px;
     }
+}
 
+@media only screen and (max-width: 930px) {
+    .empty-space {
+        margin-top: 40px;
+    }
 }
 
 /* grid-container-3 */
@@ -241,8 +232,29 @@
 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
     .fullrounded-img {
         display: none;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .item1-1 video {
+        width: 482px;
+        height: 227px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 300px) {
+    .item1-1 video{
+        width: 382px;
+        height: 127px;
+    }
+    .item1-1 {
+        padding-bottom: -100px;
     }
 }
