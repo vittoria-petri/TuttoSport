@@ -128,7 +128,9 @@
     .item1-1 {
         text-align: center;
     }
-
+    video {
+        max-width: 50%;
+    }
 
     .item1-2 {
         width: 100%;
