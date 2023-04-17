@@ -6,14 +6,24 @@
         display: none;
     }
 }
-@media screen and (max-width: 600px) {
-    .img1 {
+
+@media screen and (max-width: 1020px) {
+    .user, .roundedlive-img, .rounded1-img, .spacenav {
         display: none;
     }
+
     .navbar {
         width: 100vw;
         background-color: white;
         height: 60px;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        display: block;
     }
 
     .split-left {
@@ -27,18 +37,15 @@
         width: auto;
     }
 
-    .img2 {
-        display: block;
-    }
-
-    .mainadv {
+    .div-cont1 {
         display: none;
     }
 
-    .mainadv1 {
-        display: block;
-        padding-top: 70px;
-    }
+}
+
+
+@media screen and (max-width: 1020px) {
+
 
     .bigimg {
         width: 100%;
@@ -47,7 +54,6 @@
     .rotation img {
         width: 200px;
         height: auto;
-        padding-left: 200px;
     }
 
     .rotation {
@@ -65,9 +71,21 @@
     }
 }
 
+
+@media screen and (max-width: 770px) {
+    .mainadv {
+        display: none;
+    }
+
+    .mainadv1 {
+        display: block;
+        padding-top: 70px;
+    }
+}
+
 /* .grid-cpntainer responsive*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1020px) {
     .grid-container {
         grid-template-columns: 264px 284px;
         max-width: 580px;
@@ -98,7 +116,7 @@
 
 /* .grid-container-1 responsive */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1020px) {
     .grid-container-1 {
         grid-template-columns: 100%;
         column-gap: 0;
@@ -126,7 +144,7 @@
 
 /* .grid-container-2 */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1020px) {
     .grid-container-2 {
         grid-template-columns: 100%;
         max-width: 580px;
@@ -158,29 +176,31 @@
 
 /* grid-container-3 */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1020px) {
     .grid-container-3 {
         grid-template-columns: 100%;
         max-width: 580px;
         margin: 0 auto;
     }
+
     .cont2 {
         display: none;
     }
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1020px) {
     .big-text {
         width: 100%;
         font-size: 30px;
 
     }
+
     .div-cont {
         font-size: 15px;
     }
 
-    .adv-responsive{
+    .adv-responsive {
         max-width: 580px;
         margin: 0 auto;
     }
@@ -189,7 +209,7 @@
 
 /*Responsive footer*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1020px) {
     .grid-footer {
         grid-template-columns: 274px 274px;
     }
