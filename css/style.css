@@ -89,9 +89,10 @@ hr {
 }
 
 
-.adv-responsive img {
-    max-width: 100%;
-    height: auto;
+.adv-responsive, .adv-responsive img {
+    width: 100%;
+    object-fit: contain;
+
 }
 
 
@@ -157,12 +158,15 @@ hr {
 .item1 {
     /*background-color: red;*/
     grid-column-end: span 2;
+    display: block;
+    object-fit: contain;
 }
 
 .item2 {
     /*background-color: blue;*/
     grid-row-end: span 2;
     text-align: center;
+    display: block;
 }
 
 .item2-adv2 {
@@ -172,22 +176,32 @@ hr {
 
 .item3 {
     /*background-color: yellow;*/
+    display: block;
+    object-fit: contain;
 }
 
 .item4 {
     /*background-color: #47c072;*/
+    display: block;
+    object-fit: contain;
 }
 
 .item5 {
     /*background-color: palevioletred;*/
+    display: block;
+    object-fit: contain;
 }
 
 .item6 {
     /*background-color: aquamarine;*/
+    display: block;
+    object-fit: contain;
 }
 
 .item7 {
     /*background-color: red;*/
+    display: block;
+    object-fit: contain;
 }
 
 .item7-img{
@@ -202,13 +216,20 @@ hr {
     box-sizing: border-box;
 }
 
-.item1-1 {
-    /*background-color: chartreuse;*/
-}
+
+
 
 .item1-1 video {
     width: 632px;
     height: 377px;
+}
+
+
+
+.item1-1 {
+    object-fit: contain;
+    width: 100%;
+    max-width: 100%;
 }
 
 .item1-2 {
@@ -402,16 +423,29 @@ hr {
 
 .mainadv1{
     display: none;
+    object-fit: contain;
 }
 
-.mainadv1 img{
-    max-width: 100%;
+.mainadv1  img{
+    width: 100%;
 }
 
 .last-adv {
     margin-bottom: 30px;
 }
 
+.fit {
+    object-fit: contain;
+
+}
+
+.hover-shadow {
+    max-width: 100%;
+}
+
+
+
 .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
