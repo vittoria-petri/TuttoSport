@@ -19,7 +19,7 @@
     padding: 6px 12px; /* 2: alto & basso, sinistra & destra | 3 o 4: alto, destra, basso, sinistro */
     height: 15px;
     line-height: 15px;
-    text-decoration: none; /*per togliere il sottolineato*/
+    text-decoration: none;
     margin-right: 16px;
 }
 
@@ -29,27 +29,23 @@
     padding-left: 100px;
 }
 
-.img2{
-    display: none;
-}
-
 .split-right {
     width: 64%;
     float: right;
     font-size: 15px;
-    padding: 6px 12px; /*6px top e 12px left and right*/
+    padding: 6px 12px;
     align-items: center;
     margin-right: 16px;
 }
 
-.spacenav{
+.spacenav {
     width: 6%;
 }
+
 .user {
     padding: 0;
     margin-right: 0;
 }
-
 
 .resizetuttosport {
     float: left;
@@ -80,5 +76,9 @@
 }
 
 .lente2 {
+    display: none;
+}
+
+.img2 {
     display: none;
 }
